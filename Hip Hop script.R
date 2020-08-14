@@ -10,7 +10,7 @@ unfile2="https://raw.githubusercontent.com/sjockers/bbc-best-rapmusic/master/dat
 rank <- read_csv((url(unfile2)))
 
 #Loading image 
-img <- image_read("https://images.unsplash.com/photo-1546528377-9049abbac32f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=ben-wiens-Qcl98B8Bk3I-unsplash.jpg")
+img <- image_read("/Users/dariamalone/Documents/Code/Hip-Hop/9dcf6b62ca56d16105e5145d38b4b3a7-removebg-preview.png")
 
 #Convert image to a bitmap 
 img <- as.numeric(img[[1]])
